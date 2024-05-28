@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: 0;
+    width: 100%;
+}
+
+header {
+    top: 0;
+} 
+
+footer {
+    bottom: 0;
+}
+
+main {
+    margin: 70px 20px 70px 20px;
+}
+
+img {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    max-width: 25%;
+    max-height: 25%;
+} 
+
+#about-me-paragraph {
+    font-size: 2em;
+    margin-top: 140px;
+    margin-bottom: 330px;
+}
+
+#project1-paragraph {
+    font-size: 1.5em;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+#project2-paragraph {
+    font-size: 1.5em;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+
+.content {
+    display: none;
+}
+
+.content_active {
+    display: block;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration-color: none;
+    text-decoration-color: white;
+} 
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(85,85,85);
+}
+
+/* Transition */
+
+a, .btn {
+    transition: all 300ms ease;
+} /* purposeful lag before hover */
+
+a:hover {
+    color: gray;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(101,101,101);
+}
+
+
+
