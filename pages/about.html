@@ -3,26 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>About Me - My Website</title>
+    <link rel="stylesheet" href="../stylesheets/style.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="pages/about.html">About Me</a>
-            <a href="pages/projects.html">Projects</a>
+            <a href="../index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Projects</a>
         </nav>
     </header>
     <main>
-        <section id = "about">
-            <h1>About Me</h1>
+        <section id = "background" class="fade-in">
             <h2>Background</h2>
             <p id ="about-me-paragraph">Hi! My name is Mark Dormeus and I'm currently a rising Junior at FSU and I'm pursuing a Bachelor's in Computer Science alongside 
                 a double minor in IT and English. I'm of primarily Haitian origin, but Martinican as well although by Krèyol is subpar.
             </p>
-            <img src = "assets/flag1.png" alt="Haitian Flag">
-            <img src = "assets/flag2.png" alt="Martinican Flag">
+            <img src = "../assets/flag1.png" alt="Haitian Flag">
+            <img src = "../assets/flag2.png" alt="Martinican Flag">
+        </section>
+        <section id = "background" class="fade-in">
             <h2>Career Goals</h2>
             <p>
                 I'm interested in becoming a penetration tester and so in my spare time, I enjoy experimenting with tools 
@@ -30,12 +31,31 @@
                 on game development, whether that be working on projects in Unreal Engine or reverse engineering pre-existing games. I'm currently looking for 
                 DevSecOps, SysAdmin, Software Engineering, Machine Learning, or Cybersecurity internships.
             </p>
-            <h2>Hobbies</h2>
         </section>
+        <section id = "background" class="fade-in">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Writing novelas</li>
+                <li>Music Composition</li>
+                <li>Photography</li>
+                <li>Capoeira</li>
+                <li>Watching Movies</li>
+                <li>Watching anime</li>
+                <li>Playing video games (Kingdom Hearts, Persona, NieR, Pokemon)</li>
+                <li>Skating</li>
+                <li>Soccer & Tennis</li>
+            </ul>
+            <img src="../assets/pokemon.gif" alt="Pokemon GIF">
+            <img src="../assets/persona_logo.png" alt="Persona 3">
+            <img src="../assets/movie_poster.png" alt="City of God">
+            <img src="../assets/arsenal.png" alt="Arsenal Logo">
+            </section>
     </main>
     <footer>
         <p>&copy; 2024 My Website</p>
     </footer>
+
+    <script src="../scripts/scroll.js"></script>
     
 </body>
 </html>

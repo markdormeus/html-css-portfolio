@@ -64,14 +64,42 @@ nav a {
     text-decoration-color: white;
 } 
 
+section {
+    padding: 60px, 20px;
+}
+
+#background {
+    background-color: white;
+}
+
+#career-goals {
+    background-color: white;
+}
+
+#hobbies {
+    background-color: white;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
-p {
-    color: rgb(85,85,85);
+h2 {
+    margin-top: 0;
 }
 
+p {
+    line-height: 1.6;
+}
 /* Transition */
 
 a, .btn {
