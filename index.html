@@ -5,17 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-        function showContent(section) {
-            var sections = document.querySelectorAll('.content'); //array containing elements
-            sections.forEach(function(sec) {
-                sec.classList.remove('active') //iterates over each element in the sections NodeList, removes active class (hides section)
-            });
-            document.getElementById(section).classList.add('active'); //displays selected section
-        }
-    </script>
 </head>
-<body onload="showContent('home')">
+<body>
     <header>
         <nav>
             <a href="#home" onclick="showContent('home')">Home</a>
@@ -24,31 +15,9 @@
         </nav>
     </header>
     <main>
-        <section id = "home" class="content-active">
+        <section id = "home">
             <h1>Welcome to My Website!</h1>
             <img src="assets/profile-pic.jpeg" alt="Mark Dormeus Profile Picture">
-        </section>
-        <section id = "about" class="content-active">
-            <h1>About Me</h1>
-            <p id ="about-me-paragraph">Hi! My name is Mark Dormeus and I'm currently a rising Junior at FSU and I'm pursuing a Bachelor's in Computer Science alongside 
-                a double minor in IT and English. I'm interested in becoming a penetration tester and so in my spare time, I enjoy experimenting with tools 
-                such as Wireshark, Metasploit, and Hashcat with Kali Linux and Parrot OS. When I'm not focused on any of my aforementioned interests, I focus 
-                on game development, whether that be working on projects in Unreal Engine or reverse engineering pre-existing games. I'm currently looking for 
-                DevSecOps, SysAdmin, Software Engineering, Machine Learning, or Cybersecurity internships.
-            </p>
-        </section>
-        <section id = "projects" class="content-active">
-            <h1>My Projects (Future)</h1>
-            <section>
-            <h2>Shopify</h2>
-            <p id="project1-paragraph">Shopify is a Python library that downloads songs from a selected provider (by default YouTube), and then scrapes the meta information from 
-                Spotify. Given a query, Shopify will find and download songs to MP3 format.</p>
-        </section>
-        <section>
-            <h2>Planet Simulator</h2>
-            <p id="project2-paragraph">This project is a simple Solar System simulation worte in C++ and the open source library OpenGL for 3D graphics. We wrote basic functionalities 
-                to the program like camara manipulation, lighting source and texture integration.</p>
-        </section>
         </section>
     </main>
     <footer>

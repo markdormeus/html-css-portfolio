@@ -58,14 +58,6 @@ img {
 }
 
 
-.content {
-    display: none;
-}
-
-.content_active {
-    display: block;
-}
-
 nav a {
     color: rgb(255, 255, 255);
     text-decoration-color: none;
