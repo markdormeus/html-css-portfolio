@@ -1,10 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    color: white;
     margin: 0;
     text-align: center;
     padding: 1rem;
@@ -32,7 +34,7 @@ main {
     margin: 70px 20px 70px 20px;
 }
 
-img {
+#profile-pic {
     margin-top: 10rem;
     margin-bottom: 5rem;
     max-width: 25%;
@@ -42,7 +44,7 @@ img {
 #about-me-paragraph {
     font-size: 2em;
     margin-top: 140px;
-    margin-bottom: 330px;
+    margin-bottom: 50px;
 }
 
 #project1-paragraph {
@@ -69,15 +71,33 @@ section {
 }
 
 #background {
-    background-color: white;
+    background-color: black;
 }
 
 #career-goals {
-    background-color: white;
+    background-color: black;
+}
+
+#career-paragraph {
+    font-size: 2em;
+    margin-top: 140px;
+    margin-bottom: 330px;
 }
 
 #hobbies {
-    background-color: white;
+    background-color: black;
+}
+
+#hobby-list {
+    list-style-position: inside;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#projects {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .fade-in {
@@ -99,6 +119,85 @@ h2 {
 
 p {
     line-height: 1.6;
+}
+
+#flag1 {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    max-width: 25%;
+    max-height: 25%;
+} 
+
+#flag2 {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    max-width: 23%;
+    max-height: 23%;
+} 
+
+#pikachu {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    max-width: 23%;
+    max-height: 23%;
+} 
+
+#persona3 {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    max-width: 23%;
+    max-height: 23%;
+} 
+
+#movie-poster {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    max-width: 23%;
+    max-height: 23%;
+} 
+
+#arsenal {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    max-width: 23%;
+    max-height: 23%;
+} 
+
+#spotify {
+    max-width: 100%;
+    display: block;
+} 
+
+#planet {
+    max-width: 100%;
+    display: block;
+} 
+
+#adventure {
+    max-width: 100%;
+    display: block;
+} 
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: auto auto auto;
+    gap: 1em;
+    margin-top: 5rem;
+}
+
+.box {
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+.featured {
+    grid-column: span 3;
 }
 /* Transition */
 
