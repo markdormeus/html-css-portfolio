@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', Arial, sans-serif;
     color: white;
     margin: 0;
     text-align: center;
@@ -14,6 +14,7 @@ body {
 }
 
 header, footer {
+    font-family: 'Times New Roman', Times, serif;
     background-color: black;
     color: white;
     text-align: center;
@@ -34,17 +35,50 @@ main {
     margin: 70px 20px 70px 20px;
 }
 
+main.home-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 140px);
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#home-header {
+    color: rgba(255, 187, 0, 0.973);
+}
+
 #profile-pic {
-    margin-top: 10rem;
-    margin-bottom: 5rem;
-    max-width: 25%;
-    max-height: 25%;
+    width: 150px;
+    height: auto;
 } 
 
 #about-me-paragraph {
     font-size: 2em;
-    margin-top: 140px;
-    margin-bottom: 50px;
+    margin-top: 300px;
+    margin-bottom: 300px;
 }
 
 #project1-paragraph {
@@ -81,12 +115,40 @@ section {
 #career-paragraph {
     font-size: 2em;
     margin-top: 140px;
-    margin-bottom: 330px;
+    margin-bottom: 100px;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    padding: 10px, 20px;
+    background-color: #f5f5f5;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
 }
 
 #hobbies {
     background-color: black;
 }
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
 
 #hobby-list {
     list-style-position: inside;
@@ -120,20 +182,6 @@ h2 {
 p {
     line-height: 1.6;
 }
-
-#flag1 {
-    margin-top: 10rem;
-    margin-bottom: 5rem;
-    max-width: 25%;
-    max-height: 25%;
-} 
-
-#flag2 {
-    margin-top: 10rem;
-    margin-bottom: 5rem;
-    max-width: 23%;
-    max-height: 23%;
-} 
 
 #pikachu {
     margin-top: 10rem;
